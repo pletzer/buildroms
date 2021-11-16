@@ -3,7 +3,7 @@ ml netCDF-Fortran
 
 # https://www.myroms.org/wiki/build_roms#User_Definable_Compilation_Options
 
-export ROMS_APPLICATION=UPWELLING
+export ROMS_APPLICATION=BASIN # UPWELLING
 export MY_ROMS_SRC=/home/pletzera/roms
 export MY_HEADER_DIR=$MY_ROMS_SRC/ROMS/Include
 
