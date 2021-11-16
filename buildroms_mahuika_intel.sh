@@ -1,0 +1,10 @@
+ml intel
+ml netCDF
+
+export NETCDF_INCDIR=$EBROOTNETCDF/include
+export NETCDF_LIBDIR=$EBROOTNETCDF/lib64
+export HDF5_LIBDIR=$EBROOTHDF5/lib
+
+
+
+
