@@ -40,5 +40,8 @@ jobid    |  compiler  | platform    |test case |  elapsed time sec | comments
 23190100 | intel      | mahuika     | upwelling | 00:03:58         | single proc
 23190306 | gnu        | mahuika     | upwelling | 00:02:11         | 
 23190508 | gnu        | mahuika     | basin 12000  |  00:11:03     | 4 procs (from the log file, for some reason the code exceeded the tie limit)
-23190516 | intel      | mahuika     | basin 12000  |  00:16:47                 
+23190516 | intel      | mahuika     | basin 12000  |  00:16:47     |         
+23194289 | intel      | mahuika     | basin 12000  |  00:11:50     | removed --check uninit
+23194532 | intel      | mahuika     | basin 12000  |  00:20:10     | --ntasks=4 --hint=multithread (2 physical procs)
+23194537 | gnu        | mahuika     | benchmark1   | 
 

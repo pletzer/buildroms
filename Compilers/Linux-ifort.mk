@@ -30,8 +30,8 @@
 # First the defaults
 #
                FC := ifort
-           FFLAGS := -fp-model precise
-           FFLAGS += -heap-arrays
+	   FFLAGS := -heap-arrays
+           #FFLAGS += -fp-model precise
        FIXEDFLAGS := -nofree
         FREEFLAGS := -free
               CPP := /usr/bin/cpp
